@@ -1,3 +1,4 @@
+/* 기존 스타일 유지 */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f4ff; /* 전체 배경색 */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* 추가된 스타일 */
+.box {
+  background-color: #ffffff;
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.category-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #303030;
 }
